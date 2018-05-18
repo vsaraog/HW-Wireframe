@@ -1,0 +1,66 @@
+body {
+font-family: 'arial', 'helvetica neue', 'helvetica', 'sans-serif';
+/*color: #777;*/
+/*background-color: #777;*/
+width: 960px;
+font-size: 18px;
+background-color: gray;
+}
+
+header, nav, section, aside, footer {
+background-color: lightgray;
+}
+
+header, nav, footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.vcentertext {
+    line-height: 40px; 
+}
+
+article {
+color: #ebebeb;
+background-color: #777;
+}
+
+h1 p {
+color: #777;
+background-color: #ebebeb;
+}
+
+.container
+{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 495px;
+}
+
+#aside
+{
+    width: 200px;
+    height: 150px;
+    float: right;
+    text-align: center;
+}
+
+.sectioncontainer
+{
+    width: 270px;
+}
+
+.helement
+{
+    float: left;
+    width: 90px;
+}
+
+.clearfloat
+{
+    clear: both
+}
