@@ -1,14 +1,13 @@
 body {
 font-family: 'arial', 'helvetica neue', 'helvetica', 'sans-serif';
-/*color: #777;*/
-/*background-color: #777;*/
+color: #777;
+background-color: #777;
 width: 960px;
 font-size: 18px;
-background-color: gray;
 }
 
 header, nav, section, aside, footer {
-    background-color: lightgray;
+    background-color: #ebebeb;
 }
 
 header, nav, footer {
@@ -24,38 +23,31 @@ article {
     color: #ebebeb;
     background-color: #777;
     width: 90%;
-    }
-    
-h1 p {
-    color: #777;
-    background-color: #ebebeb;
-}
-
-/* section {
-    position: relative;
-} */
-
-article {
     position: absolute;
     bottom: 10px;
     text-align: center;
-    height: 150px;
+    height: 70%;
 }
+
+/* h1 p {
+    color: #777;
+    background-color: #ebebeb;
+} */
 
 .page-container
 {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    width: 495px;
+    width: 960px;
 }
 
 .section-c
 {
     position: relative;
-    width: 250px;
+    width: 495px;
     height: 230px;
-    background-color: lightgray;
+    background-color: #ebebeb;
     padding: 10px;
 }
 
@@ -68,21 +60,28 @@ article {
     line-height: 50px;
 }
 
+.section-c-sub
+{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+
+}
+
 .aside-elem-c
 {
-    width: 180px;
+    width: 420px;
     height: 230px;
     float: right;
     text-align: center;
-    /* line-height: 250px; */
+    line-height: 50px;
     padding: 10px;
 }
 
 .h-elem
 {
     display: inline;
-    color: darkgray;
-    /* width: 90px; */
+    /* color: #777; */
 }
 
 .clearfloat
@@ -92,10 +91,11 @@ article {
 
 .inside-article-elem
 {
-    width: 90%;
+    /* width: 90%; */
     height: 40px;
     line-height: 40px;
-    background-color: lightgray;
+    background-color: #ebebeb;
+    color: #777;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 15px;
